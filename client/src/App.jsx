@@ -29,13 +29,16 @@ function App() {
           </p>
           <div className="input">
             <Link to="/createuser">
-              <div>
-                <img src="./src/assets/images/456283.png" alt="" />
+              <div className="input">
+                <img src="./src/assets/images/6700065.png" alt="" />
                 <button type="button">Crée un compte</button>
               </div>
             </Link>
             <Link to="/login">
-              <button type="button">Ce connecter</button>
+              <div className="input">
+                <img src="./src/assets/images/profile.png" alt="" />
+                <button type="button">Ce connecter</button>
+              </div>
             </Link>
           </div>
         </div>

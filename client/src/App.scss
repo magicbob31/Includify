@@ -25,10 +25,11 @@
     .img-bienvenue {
       color: white;
       display: flex;
+      margin-bottom: 2rem;
       align-items: center;
       justify-content: center;
       width: 100%;
-      height: 150px;
+      height: 200px;
       background-image: url("./assets/images/stock-photo.jpeg");
       background-size: cover;
     }
@@ -45,6 +46,16 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    .input {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
 
     button {
       font-size: 2rem;
